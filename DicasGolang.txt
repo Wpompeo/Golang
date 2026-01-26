@@ -1,0 +1,8 @@
+
+
+*Executar códgo no VS Code:
+	*No terminal, digite o seguinte comando: go run main.go ===> "main.go" seria o nome do arquivo/classe que deseja rodar.
+
+*Armazenamento de dados de entrada:
+	*Ao entrar com um dado via teclado, ex: fmt.Print("Digite seu nome: ")
+	*Utilize o comando fmt.Scan(&nome) ==> para armazenar o dado de entrada.
