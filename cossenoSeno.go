@@ -16,7 +16,6 @@ func main() {
 	fmt.Scan(&angulo)
 	fmt.Println("###########################")
 	fmt.Println()
-
 	//calculo e impressao do cosseno
 	fmt.Println("Cosseno de", angulo, "é:", math.Cos(angulo))
 
