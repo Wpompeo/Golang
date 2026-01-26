@@ -1,8 +1,30 @@
 
+####################################################################################################################################
 
 *Executar códgo no VS Code:
 	*No terminal, digite o seguinte comando: go run main.go ===> "main.go" seria o nome do arquivo/classe que deseja rodar.
 
+####################################################################################################################################
+
 *Armazenamento de dados de entrada:
 	*Ao entrar com um dado via teclado, ex: fmt.Print("Digite seu nome: ")
 	*Utilize o comando fmt.Scan(&nome) ==> para armazenar o dado de entrada.
+
+####################################################################################################################################
+
+*Exportação de funções
+	*Toda função que for declarada com a primeira letra do nome em Maiscula, quer dizer que pode ser usada/exportada em
+	outros arquivos.
+	Ex: func SayHello() ==> Pode ser exportada.
+	Ex: func sayHello() ==> Não pode ser exportada.
+
+####################################################################################################################################
+
+*Criando variaveis
+	var nome string = "Developer" ===> Declarando a variavel nome do tipo String.
+	var nome = "Developer" ===> Declarando a variavel nome sem declaração de tipo, Go assume o tipo pelo conteudo declarado.
+	var nome string ===> Declarando variavel nome sem atribuição, Go automaticamente inicia a variavel conforme seu tipo.
+	nome := "Developer" ===> Declaração curta, declara a variavel nome já inicializada a mesma com o dado "Developer"
+
+####################################################################################################################################
+	
